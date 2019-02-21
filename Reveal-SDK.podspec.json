@@ -21,6 +21,7 @@
   "name" : "Reveal-SDK",
   "platforms" : {
     "ios" : "8.0",
+    "tvos" : "9.0"
   },
   "requires_arc" : false,
   "screenshots" : [
@@ -32,7 +33,7 @@
   },
   "summary" : "The Reveal SDK: Runtime view debugging for iOS & tvOS apps & extensions.",
   "tvos" : {
-    
+    "vendored_frameworks" : "RevealServer-14/tvOS/RevealServer.framework"
   },
   "version" : "14",
   "xcconfig" : {
