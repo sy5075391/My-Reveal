@@ -11,11 +11,11 @@
   ],
   "homepage" : "https://revealapp.com/",
   "ios" : {
-    "vendored_frameworks" : "RevealServer-14/iOS/RevealServer.framework"
+    "vendored_frameworks" : "RevealServer-2/iOS/RevealServer.framework"
   },
   "libraries" : "z",
   "license" : {
-    "file" : "RevealServer-14/LICENSE.md",
+    "file" : "RevealServer-2/LICENSE.md",
     "type" : "Commercial"
   },
   "name" : "Reveal-SDK",
@@ -35,7 +35,7 @@
   "tvos" : {
     "vendored_frameworks" : "RevealServer-14/tvOS/RevealServer.framework"
   },
-  "version" : "14",
+  "version" : "2",
   "xcconfig" : {
     "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
   }
