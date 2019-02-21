@@ -1,0 +1,42 @@
+{
+  "authors" : {
+    "Itty Bitty Apps Pty Ltd" : "support@revealapp.com"
+  },
+  "compiler_flags" : "-ObjC",
+  "description" : "Reveal brings powerful runtime view debugging to iOS developers.\nPlease visit our website for more details: http://revealapp.com/",
+  "frameworks" : [
+    "CoreGraphics",
+    "CFNetwork",
+    "QuartzCore"
+  ],
+  "homepage" : "https://revealapp.com/",
+  "ios" : {
+    "vendored_frameworks" : "RevealServer-14/iOS/RevealServer.framework"
+  },
+  "libraries" : "z",
+  "license" : {
+    "file" : "RevealServer-14/LICENSE.md",
+    "type" : "Commercial"
+  },
+  "name" : "Reveal-SDK",
+  "platforms" : {
+    "ios" : "8.0",
+    "tvos" : "9.0"
+  },
+  "requires_arc" : false,
+  "screenshots" : [
+    "https://images.revealapp.com/CocoaPods/banner.jpg"
+  ],
+  "social_media_url" : "https://twitter.com/reveal_app",
+  "source" : {
+    "git" : "https://github.com/sy5075391/My-Reveal.git"
+  },
+  "summary" : "The Reveal SDK: Runtime view debugging for iOS & tvOS apps & extensions.",
+  "tvos" : {
+    "vendored_frameworks" : "RevealServer-14/tvOS/RevealServer.framework"
+  },
+  "version" : "14",
+  "xcconfig" : {
+    "LD_RUNPATH_SEARCH_PATHS" : "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"
+  }
+}
